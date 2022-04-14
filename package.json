@@ -1,11 +1,11 @@
 {
   "name": "nadesiko3-mecab",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mecab for nadesiko3",
   "main": "nadesiko3-mecab.js",
   "scripts": {
   },
-  "keywords": [],
+  "keywords": ["mecab", "nadesiko3", "形態素解析"],
   "author": "kujirahand",
   "license": "MIT",
   "devDependencies": {
