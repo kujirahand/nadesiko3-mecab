@@ -1,6 +1,6 @@
 {
   "name": "nadesiko3-mecab",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "mecab for nadesiko3",
   "main": "nadesiko3-mecab.js",
   "scripts": {
