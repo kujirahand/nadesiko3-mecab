@@ -34,7 +34,11 @@ const PluginMecab = {
     josi: [['で', 'を']],
     fn: function (s, sys) {
       const mecabOpt = sys.__v0['MECABオプション']
-      const head = 'mecab_' + encodeURIComponent(s.substring(0, 64)) + '.txt'
+      const head = 'mecab_' + 
+        ((new Date()).getTime().toString(16)) + "_" + 
+        (Math.random()) + '_' +
+        encodeURIComponent(s.substring(0, 8)).replace(/\%/g, '') + 
+        '.txt'
       const isWin = (process.platform == 'win32')
       const dirTemp = isWin ? process.env['TMP'] : '/tmp'
       const tmpFile = path.join(dirTemp, head)
