@@ -1,0 +1,14 @@
+{
+  "name": "nadesiko3-mecab",
+  "version": "0.0.1",
+  "description": "mecab for nadesiko3",
+  "main": "nadesiko3-mecab.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "kujirahand",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
+
