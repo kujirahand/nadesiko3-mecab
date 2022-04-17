@@ -18,7 +18,7 @@ const PluginMecab = {
         }
     },
 
-    // @MECAB定数
+    // @形態素解析(MECAB)定数
     'MECABバージョン': {type: 'const', value:'?'}, // @MECABばーじょん
     'MECABオプション': {type: 'const', value: ''}, // @MECABおぷしょん
     'MECABオプション設定': { // @Mecab実行時のオプションを指定する // @MECABおぷしょんせってい
@@ -28,7 +28,7 @@ const PluginMecab = {
             sys.__v0['MECABオプション'] = opt
         }
     },
-    // @MECAB
+    // @形態素解析(MECAB)
     'MECAB': { // @Sについて形態素解析を行って結果を二次元配列で返す // @MECAB
         type: 'func',
         josi: [['で', 'を']],
